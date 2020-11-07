@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style type="text/css"> 
+        @import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@500&display=swap');
+        body {
+            font-family: 'Ubuntu', sans-serif;
+        }
+        a:link 
+        { 
+         text-decoration:none;
+         color: black;
+        } 
+        .container {
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            align-items: center
+        }
+        .top {
+            display: flex;
+            flex-direction: row;
+            align-items: center
+            width: 600px;
+        }
+        .middle {
+            margin-top: 60px;
+        }
+        #me-button {
+            font-weight: 600;
+            align-self: center;
+            text-align: center;
+            align-items: center;
+            border: black;
+            border-width: 20px;
+            background-color: rgba(24, 174, 243, 0.932);
+            width: 600px;
+            height: 75px;
+            font-size: larger;
+            border-radius: 20px;
+            margin-top: 60px;
+        }
+        .me-logo {
+            width: 300px;
+            margin-right: 20px;
+        }
+        .me-logotext {
+            color: #5f615e;
+        }
+        .me-image {
+            width: 120px;
+            margin-left: 20px;
+        }
+        .me-text {
+            text-align: justify;
+            font-size: larger;
+            color: rgba(24, 174, 243, 0.932);
+            width: 600px;
+        }
+        
+    </style>
+</head>
+<body>
+    <div class="container">
+        <a href="http://multiplicnet.com.br/pesquisa">
+            <div class="top">
+                <div>
+                    <img class="me-logo" src="http://multiplicfibra.com.br/painelpesquisa/src/img/logo_multiplic_rgb.png" alt="me-logo" >
+                </div>
+                <div class="me-logotext">
+                    <div><h2>PESQUISA DE</h2></div>
+                    <div><h2>SATISFAÇÃO</h2></div>
+                </div>
+                <div>
+                    <img class="me-image" src="http://multiplicfibra.com.br/painelpesquisa/src/img/pesqsat.png" alt="me-image">
+                </div>
+            </div>
+            <div class="middle">
+                <div class="me-text">
+                    <div>
+                        <p>Você está recebendo este E-mail pois estamos precisando da sua opinião. A Multiplic está passando por diversas mudanças para que você receba sempre a melhor experiência.</p>
+                    </div>
+                    <div>
+                        <p>O questionário leva menos de 2 minutos e pode melhorar muito a qualidade de nossos serviços. 😊</p>
+                    </div>
+                </div>
+            </div>
+            <div class="bottom">
+                <div>
+                    <div>
+                        <button id="me-button">Clique aqui para responder</button>
+                    </div>
+                </div>
+            </div>
+        </a>
+    </div>
+</body>
+</html>
