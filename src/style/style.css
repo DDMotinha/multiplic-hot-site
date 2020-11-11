@@ -1,0 +1,23 @@
+@import url('https://fonts.googleapis.com/css2?family=Martel:wght@700&display=swap');
+
+.body {
+    background: linear-gradient(90deg,#204354, #00192d);
+}
+.p-img {
+    width: 100%;
+    min-width: 200px;
+}
+.p-img-logo {
+    max-width: 283px;
+    width: 25%;
+}
+.p-text-tittle {
+    font-family: 'Martel', serif;
+    font-size: 32px;
+    color: #00d3f6
+}
+.bg-content {
+}
+.p-text-body {
+    color: #06e4fc;
+}

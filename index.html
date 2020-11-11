@@ -1,101 +1,75 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-BR">
 <head>
+
+
+
+    <!-- CSS PERSONAL -->
+        <link rel="stylesheet" href="src/style/style.css">
+    <!-- CSS FECHA PERSONAL -->
+
+
+
+    <!-- BOOTSTRAP ESSENCIAL-->
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
+        <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx" crossorigin="anonymous"></script>
+    <!-- BOOTSTRAP FECHA -->
+
+
+    <!-- META TAGS E CONTEUDO IMPORTANTES -->
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <style type="text/css"> 
-        @import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@500&display=swap');
-        body {
-            font-family: 'Ubuntu', sans-serif;
-        }
-        a:link 
-        { 
-         text-decoration:none;
-         color: black;
-        } 
-        .container {
-            display: flex;
-            flex-direction: row;
-            justify-content: center;
-            align-items: center
-        }
-        .top {
-            display: flex;
-            flex-direction: row;
-            align-items: center
-            width: 600px;
-        }
-        .middle {
-            margin-top: 60px;
-        }
-        #me-button {
-            font-weight: 600;
-            align-self: center;
-            text-align: center;
-            align-items: center;
-            border: black;
-            border-width: 20px;
-            background-color: rgba(24, 174, 243, 0.932);
-            width: 600px;
-            height: 75px;
-            font-size: larger;
-            border-radius: 20px;
-            margin-top: 60px;
-        }
-        .me-logo {
-            width: 300px;
-            margin-right: 20px;
-        }
-        .me-logotext {
-            color: #5f615e;
-        }
-        .me-image {
-            width: 120px;
-            margin-left: 20px;
-        }
-        .me-text {
-            text-align: justify;
-            font-size: larger;
-            color: rgba(24, 174, 243, 0.932);
-            width: 600px;
-        }
-        
-    </style>
+    <script type="text/javascript" src="src/controller/button.js" ></script>
+    <title>Promoção Multiplic!</title>
+    <!-- META TAGS E CONTEUDO IMPORTANTES FECHA -->
+
+
+
 </head>
-<body>
-    <div class="container">
-        <a href="http://multiplicnet.com.br/pesquisa">
-            <div class="top">
-                <div>
-                    <img class="me-logo" src="http://multiplicfibra.com.br/painelpesquisa/src/img/logo_multiplic_rgb.png" alt="me-logo" >
-                </div>
-                <div class="me-logotext">
-                    <div><h2>PESQUISA DE</h2></div>
-                    <div><h2>SATISFAÇÃO</h2></div>
-                </div>
-                <div>
-                    <img class="me-image" src="http://multiplicfibra.com.br/painelpesquisa/src/img/pesqsat.png" alt="me-image">
+<body class="body container-sm ">
+    <div class="col bg-top text-center container">
+        <div class="row p-3 rounded">
+            <div class="col mx-auto m-5">
+                <div class="col">
+                    <img src="src/image/p-bn-insta.png" class="p-img rounded-lg">
                 </div>
             </div>
-            <div class="middle">
-                <div class="me-text">
-                    <div>
-                        <p>Você está recebendo este E-mail pois estamos precisando da sua opinião. A Multiplic está passando por diversas mudanças para que você receba sempre a melhor experiência.</p>
+            <div class="col text-justify m-1">
+                <div class="row">
+
+                </div>
+                <div class="col p-paraph ">
+                    <div class="col mb-5 mt-5 text-center p-text-tittle">
+                        BLACK NOVEMBER
                     </div>
-                    <div>
-                        <p>O questionário leva menos de 2 minutos e pode melhorar muito a qualidade de nossos serviços. 😊</p>
+                    <div class="col">
+                        <div class="col p-text-body">
+                            Tá brincando que você vai ficar aí só olhando essa oportunidade sem fazer nada!? 😲
+                            É isso mesmo, decidimos ligar o modo <strong> Black November</strong> compartilhando com vocês a emoção de se conectar com ao mundo e viver a melhor experiência! 💙
+                            <br>
+                            <br>
+                            Condições:
+                            <br>
+                            <br>
+                            <strong>• 50% OFF</strong> na adesão para novos clientes.
+                            <br>
+                            • Para você que já é cliente, marque um amigo nesta publicação, caso ele contrate um dos nossos planos, você também ganhará <strong>50% OFF</strong> em uma mensalidade após o indicado realizar o pagamento da primeira mensalidade.
+                            <br>
+                            <br>
+                            Acesse o nosso site ou entre em contato com a nossa central de atendimento:
+                            <br>
+                            <br>
+                            💻 www.multiplicnet.com.br
+                            <br>
+                            ☎ 0800 580 4200
+                            <br>
+                            📱 Whatasapp: 11 3995-3030
+                        </div>
                     </div>
                 </div>
             </div>
-            <div class="bottom">
-                <div>
-                    <div>
-                        <button id="me-button">Clique aqui para responder</button>
-                    </div>
-                </div>
-            </div>
-        </a>
+        </div>
     </div>
 </body>
 </html>
