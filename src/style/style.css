@@ -13,11 +13,38 @@
 }
 .p-text-tittle {
     font-family: 'Martel', serif;
-    font-size: 32px;
-    color: #00d3f6
-}
-.bg-content {
+    font-size: 150%;
+    color: #486f75;
 }
 .p-text-body {
+    color: hsl(186, 88%, 26%);
+}
+.p-bn-topo{
+    width: 100%
+}
+.p-bn-img{
+    width: 80%
+}
+.p-bn-footer {
     color: #06e4fc;
+}
+.p-bn-card {
+    width: 20%
+}
+.p-bn-banner{
+    width: 1%;
+}
+.p-bn-icon{
+    width: 50%
+}
+.p-bn-text-footer{
+    color: #294c80
+}
+.p-bn-icon:hover{
+    transform: scale(1.1);
+    transition-duration: 500ms;
+}
+.p-bn-banner:hover {
+    transform: scale(1.01);
+    transition-duration: 500ms;  
 }
