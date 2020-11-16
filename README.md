@@ -1,1 +1,131 @@
-# multiplic-hot-site
+
+
+<h2> MULTIPLIC HOT SITE </h2>
+
+<p> Uma aplicação front-end bootstrap para captar clientes no Black November promoção para os clientes da Multiplic <p>
+
+
+
+
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+
+
+
+    <!-- CSS PERSONAL -->
+        <link rel="stylesheet" href="src/style/style.css">
+    <!-- CSS FECHA PERSONAL -->
+
+
+
+    <!-- BOOTSTRAP ESSENCIAL-->
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
+        <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx" crossorigin="anonymous"></script>
+    <!-- BOOTSTRAP FECHA -->
+
+
+    <!-- META TAGS E CONTEUDO IMPORTANTES -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <script>
+
+        function redirecionar() {
+           window.location.href = "https://www.instagram.com/p/CHNrJ5xlY_w/";
+        }
+    
+    </script>
+
+    <title>Promoção Multiplic!</title>
+    <!-- META TAGS E CONTEUDO IMPORTANTES FECHA -->
+
+
+
+</head>
+<body class="body text-center"><!---ABRE O BODY-->
+    <nav class="container-fluid col"><!---ABRE O NAV-->
+        <img src="./src/image/p-bn-topo.png" alt="p-bn-topo" class="p-bn-topo col">
+    </nav><!---FECHA O NAV-->
+    <main class="col bg-top text-center container-fluid bg-light"> <!---ABRE O MAIN-->
+        <div class="row p-3 rounded">
+            <div class="col text-justify m-1">
+                <div class="col p-paraph ">
+                    <div class="col mb-5 mt-5 text-center p-text-tittle">
+                        Descubra a sensação de se <strong>conectar</strong> ao mundo e viver a melhor experiência, quer participar?
+                    </div>
+                    <div class="row p-text-body ">
+                        <div class="col rounded-lg p-3 m-5 text-center rounded rounded-lg p-1 mb-5 shadow-sm">
+                            <img src="./src/image/p-bn-1-banner.png" alt="p-bn-promo" class="p-bn-banner col p-1 mb-5 ">
+                            <div class="mb-5">
+                                <div class="row-3">
+                                    Indique alguém e recebe <strong>50% OFF</strong> na mensalidade.
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col rounded-lg p-3 m-5 text-center rounded rounded-lg p-1 mb-5 shadow-sm">
+                            <img src="./src/image/p-bn-2-banner.png" alt="p-bn-promo" class="p-bn-banner col p-1 mb-5 ">
+                            <div class="mb-5">
+                                <div class="row-3">
+                                    Seja indicado e receba <strong>50% OFF</strong> na adesão.
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col rounded-lg p-3 m-5 text-center rounded rounded-lg p-1 mb-5 shadow-sm">
+                            <img src="./src/image/p-bn-3-banner.png" alt="p-bn-promo" class="p-bn-banner col mb-5 ">
+                            <div class="mb-5">
+                                <div class="row-3">
+                                    <div class="col p-text-tittle mb-3">Quer saber mais?</div>
+                                    <button class="btn btn-outline-success" onclick="redirecionar()">
+                                        Clique aqui!
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main> <!---FECHA O MAIN-->
+    <footer class="container-fluid body align-content-center"><!---FECHA O FOOTER-->
+        <div class="row">
+            <div class="col">
+                <div class="col">
+                    <img src="src/image/p-bn-logo.png" class="p-bn-img">
+                </div>
+            </div>
+            <div class="col m-3">
+                <div class="row">
+                    <div class="col-3 p-bn-footer mx-auto">
+                        <a href="https://www.facebook.com/multiplictelecom">
+                            <img src="src/image/p-bn-facebook.png" alt="p-bn-facebook" class="p-bn-icon">
+                        </a>
+                    </div>
+                    <div class="col-3 p-bn-footer">
+                        <a href="https://www.instagram.com/multiplictelecom/">
+                            <img src="src/image/p-bn-instagram.png" alt="p-bn-instagram" class="p-bn-icon">
+                        </a>
+                    </div>
+                    <div class="col-3 p-bn-footer">
+                        <a href="https://twitter.com/Multiplicnet">
+                            <img src="src/image/p-bn-twitter.png" alt="p-bn-twitter" class="p-bn-icon">
+                        </a>
+                    </div>
+                    <div class="col-3 p-bn-footer">
+                        <a href="https://www.youtube.com/channel/UCLyzDyDNpankh1ciaCsYAKA">
+                            <img src="src/image/p-bn-youtube.png" alt="p-bn-youtube" class="p-bn-icon">
+                        </a>
+                    </div>
+                </div>
+                <div class="col mt-3 p-bn-text-footer text-center">
+                    © 2020 Copyright: <strong>Multiplic Telecom</strong>
+                </div>
+            </div>
+            <div class="col">
+
+            </div>
+        </div>
+    </footer><!---FECHA O FOOTER-->
+</body><!---FECHA O BODY-->
+</html>
