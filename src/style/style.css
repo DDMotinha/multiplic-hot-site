@@ -23,6 +23,7 @@
     width: 100%
 }
 .p-bn-img{
+    min-width: 75px;
     width: 80%
 }
 .p-bn-footer {
@@ -35,6 +36,7 @@
     width: 1%;
 }
 .p-bn-icon{
+    min-width: 12.5px;
     width: 50%
 }
 .p-bn-text-footer{
@@ -47,4 +49,7 @@
 .p-bn-banner:hover {
     transform: scale(1.01);
     transition-duration: 500ms;  
+}
+.p-bn-footer-text{
+    width: 10%;
 }
